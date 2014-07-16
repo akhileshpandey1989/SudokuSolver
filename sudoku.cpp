@@ -338,6 +338,8 @@ int main(int argc, char *argv[])
                 i++;
                 f.read(str, 1);
         }
+        
+        f.close();
 
         cout<<endl<<endl<<"Statistics"<<endl<<endl;
         cout<<"Total number of Sudokus = "<<i-1<<endl;
